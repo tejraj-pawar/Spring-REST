@@ -5,10 +5,10 @@ In this i have created rest services with following features: Exception Handling
 - Exception Handling: Using @ControllerAdvice along with @ExceptionHandler provides global (and more specific) error handling across all controllers.
 
 - Versioning: For versioning there is no perfect solution. here i have done four types of versioning:
- - URI Versioning: Different URI for different versions of REST apis.
- - Request Param Versioning: Pass specific version query parameter in REST api.
- - Header Versioning: Pass specific version header in REST api.
- - Media Type Versioning: Pass header named "Accept" in REST api.
+ > URI Versioning: Different URI for different versions of REST apis.
+ > Request Param Versioning: Pass specific version query parameter in REST api.
+ > Header Versioning: Pass specific version header in REST api.
+ > Media Type Versioning: Pass header named "Accept" in REST api.
 
 - Filtering: Here i have performed Static and Dyanmic Filtering.
  - Static Filtering: Using @JsonIgnore/@JsonIgnoreProperties annotations.
